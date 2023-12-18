@@ -1,0 +1,68 @@
+.card-body{
+  background-color: aliceblue;
+  border: 1px solid;
+}
+
+#thanks{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  color: navy;
+  padding-bottom: 1%;
+}
+
+#purchase{
+  font-size:larger;
+  font-weight: 600;
+  margin-bottom:2% ;
+}
+
+table, th, td {
+border: 1px solid black;
+border-right:none ;
+border-left:none ;
+padding: 8px;
+}
+
+td{
+  padding:8px 20px;
+}
+
+.text-right{
+  text-align: right;
+}
+
+#total-receipt {
+
+  margin-bottom: 5% !important;
+}
+
+#div-receipt {
+position: absolute;
+width: 100%;
+top: 16%;
+margin: auto;
+}
+
+#purchase-details {
+flex-basis: 65%;
+}
+
+#purchase-details > p{
+margin: 0 ;
+}
+
+.padding-left {
+padding-left: 4%;
+}
+#purchase-download {
+display: flex;
+justify-content: space-between;
+margin-bottom: 2%;
+}
+
+#download{
+display: block;
+width: 100%;
+margin: 26% 0 19% 0;
+}

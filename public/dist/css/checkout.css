@@ -1,0 +1,155 @@
+body {
+  height: 100vh;
+}
+
+#inner-card {
+  border-color: black !important;
+}
+.card-body input {
+  border-color: #00108b  !important;
+  border-width: 2px;
+}
+
+.card-body > hr {
+    border-color:#787878
+}
+
+input {
+    color:black !important;
+    font-weight: 500;
+}
+
+#btn-checkout {
+  background: olivedrab;
+}
+
+#nav-checkout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin: auto;
+  background-color: #b94b4b;
+  height: 6.5vh;
+}
+
+#nav-logo {
+  height: 6.5vh;
+  flex-basis: 23%;
+  background: rgb(171, 237, 216);
+}
+
+.nav-checkout-items {
+  font-size: x-large;
+  color: aliceblue;
+}
+
+.card-body{
+  background-color: aliceblue;
+  border: 1px solid;
+}
+
+#thanks {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  color: navy;
+  padding-bottom: 1%;
+}
+
+#purchase {
+  font-size:larger;
+  font-weight: 600;
+  margin-bottom:2% ;
+}
+
+table, th, td {
+border: 1px solid black;
+border-right:none ;
+border-left:none ;
+padding: 8px;
+}
+
+td{
+  padding:8px 20px;
+}
+
+.text-right{
+  text-align: right;
+}
+
+#total-receipt {
+  margin-bottom: 5% !important;
+}
+
+#div-receipt {
+position: absolute;
+width: 100%;
+top: 16%;
+margin: auto;
+}
+
+#purchase-details {
+flex-basis: 65%;
+}
+
+#purchase-details > p{
+margin: 0 ;
+}
+
+.padding-left {
+padding-left: 4%;
+}
+#purchase-download {
+display: flex;
+justify-content: space-between;
+margin-bottom: 2%;
+}
+
+#download {
+display: block;
+width: 100%;
+margin: 26% 0 19% 0;
+}
+
+div#ui-datepicker-div {
+  background: white;
+  border: 2px solid;
+}
+
+a.ui-datepicker-prev.ui-corner-all {
+  padding-right: 80%;
+}
+
+
+button.ui-datepicker-current.ui-state-default.ui-priority-secondary.ui-corner-all {
+  margin-right: 72.7%;
+}
+
+.ui-datepicker-calendar  td {
+  padding: 8px 20px;
+  border: 1px solid;
+  background: #8cc9ff;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-unselectable.ui-state-disabled.undefined {
+  color: #ff4b4b;
+  border-color: black;
+  background: #d7d7d7;
+}
+
+.ui-datepicker-calendar a.ui-state-default {
+  color: #0d00cf;
+  font-weight: 600;
+}
+
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+  background: deepskyblue;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.ui-datepicker-calendar  tr {
+  background: blanchedalmond;
+}

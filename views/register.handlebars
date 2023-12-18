@@ -1,0 +1,39 @@
+<div id="register">
+    <form id="register1">
+        <p><b>step 1</b></p>
+        <input id="Id" placeholder="ID" name="id" type="text">
+        <p  id="idErr" style="display:none;color:red">Id already exist</p>
+        <input id="Email" placeholder="Email" name="email" type="text" >
+        <p id="emailErr" style="display:none;color:red">Email already exist</p>
+        <input id="Password" placeholder="Password" name="password" type="password" >
+        <input id="Repassword" placeholder="Repeat password" name="repassword" type="password">
+        <button type="button" class="btn btn-primary" id="register-btn1">continue</button>
+        <a id="signin" href="/login">Or sign in</a>
+    </form>
+    <form id="register2" style="display: none;">
+        <p><b>step 2</b></p>
+        <select id="city">
+            <option value="Jerusalem">Jerusalem</option>
+            <option value="Tel aviv">Tel aviv</option>
+            <option value="Haifa">Haifa</option>
+            <option value="Rishon Lezion">Rishon Lezion</option>
+            <option value="Petah Tikva">Petah Tikva</option>
+            <option value="Ashdod">Ashdod</option>
+            <option value="Netanya">Netanya</option>
+            <option value="Bnei brak">Bnei brak</option>
+            <option value="Beer sheva">Beer sheva</option>
+            <option value="Holon">Holon</option>
+        </select>
+        <input placeholder="Street" id="street" type="text" >
+        <input placeholder="First Name" id="first" type="text" >
+        <input placeholder="Last Name" id="last" type="text">
+        <button type="button" class="btn btn-primary" id="register-btn2">continue</button>
+    </form>
+    <form id="register3" style="display: none;">
+        <p><b>A code sent to your email</b></p>
+        <input placeholder="Verification code" id="code" type="text">
+        <button type="button" class="btn btn-primary" id="register-btn3">Register</button>
+    </form>
+</div>
+<script src="dist/js/register.js"></script>
+
